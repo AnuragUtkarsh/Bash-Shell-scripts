@@ -1,127 +1,89 @@
-Shell Scripting Challenge 🐧
+# 🐧 Shell Scripting Challenge
 
-A practical collection of Bash scripts developed to strengthen Linux system administration, troubleshooting, security auditing, and operational automation skills.
+A practical collection of Bash scripts focused on Linux system administration, troubleshooting, security auditing, and operational automation.
 
-The repository focuses on real-world tasks commonly encountered in Linux infrastructure and production support environments.
+This repository demonstrates hands-on scripting for common Linux infrastructure and production support tasks.
 
-🎯 Objectives
+## 🎯 Objectives
 
-Automate repetitive Linux administration tasks.
+- Automate repetitive Linux administration tasks.
+- Simplify service health checks and recovery workflows.
+- Audit users, SSH keys, and file permissions.
+- Practice reusable scripts for day-to-day operations.
+- Improve troubleshooting and operational efficiency.
 
-Simplify service health checks and recovery workflows.
+## 🛠️ Scripts
 
-Audit users, SSH keys, and special file permissions.
+| Script | Purpose |
+|---|---|
+| `backup_automation.sh` | Backup-related automation |
+| `config_backup.sh` | Configuration backup |
+| `cpu_utilization.sh` | CPU utilization checks |
+| `disk_utilization.sh` | Disk utilization checks |
+| `dns_check.sh` | DNS connectivity and resolution checks |
+| `error_log_analyzer.sh` | Error log analysis |
+| `failed_ssh_report.sh` | Failed SSH activity reporting |
+| `file_backup.sh` | File backup operations |
+| `filesystem_alert.sh` | Filesystem monitoring and alerts |
+| `service_recovery.sh` | Service recovery workflows |
+| `service_report.sh` | Service status reporting |
+| `service_restart.sh` | Service restart operations |
+| `ssh_check.sh` | SSH-related checks |
+| `ssh_key_audit.sh` | SSH key auditing |
+| `suid-sgid.sh` | SUID/SGID permission auditing |
+| `user_audit.sh` | User auditing |
+| `user_cleanup.sh` | User cleanup operations |
+| `user_create.sh` | User creation |
+| `usergroup.sh` | User and group administration |
+| `worldfileaudit.sh` | World-accessible file auditing |
 
-Practice writing reusable scripts for day-to-day operations.
+*Descriptions are indicative based on script names. Refer to each script for its exact behavior and requirements.*
 
-Improve Bash scripting, troubleshooting, and operational efficiency.
+## ⚙️ Prerequisites
 
-🛠️ Scripts
+- Linux environment
+- Bash shell
+- Required system utilities for each script
+- Appropriate permissions for the operation being tested
 
-Script
-
-Purpose
-
-service_recovery.sh
-
-Service recovery-related automation
-
-service_report.sh
-
-Service reporting
-
-service_restart.sh
-
-Service restart operations
-
-ssh_check.sh
-
-SSH-related checks
-
-ssh_key_audit.sh
-
-SSH key auditing
-
-suid-sgid.sh
-
-SUID/SGID permission auditing
-
-user_audit.sh
-
-User auditing
-
-user_cleanup.sh
-
-User cleanup tasks
-
-user_create.sh
-
-User creation
-
-usergroup.sh
-
-User/group administration
-
-worldfileaudit.sh
-
-World-accessible file auditing
-
-Descriptions are based on script names; see each script's implementation for its exact behavior and requirements.
-
-⚙️ Prerequisites
-
-Linux environment
-
-Bash shell
-
-Appropriate permissions for the operation being tested
-
-Required utilities for the individual scripts
-
-🚀 Getting Started
+## 🚀 Getting Started
 
 Clone the repository:
 
-git clone https://github.com/AnuragUtkarsh/Shell-scripting-challenge.git
-cd Shell-scripting-challenge
+```bash
+git clone https://github.com/AnuragUtkarsh/Bash-Shell-scripts.git
+cd Bash-Shell-scripts
+```
 
 Inspect a script before running it:
 
+```bash
 less ssh_key_audit.sh
 bash -n ssh_key_audit.sh
+```
 
-Run a script after reviewing its behavior and prerequisites:
+Run the script after reviewing its behavior:
 
+```bash
 bash ssh_key_audit.sh
+```
 
-Replace the example filename with the script you want to test.
+Replace the filename with the script you want to test.
 
-🧪 Testing & Safety
+## 🧪 Safety & Best Practices
 
-Review each script before execution.
+- Review scripts before execution.
+- Test in a lab environment before production use.
+- Verify target paths and required privileges.
+- Exercise caution with scripts that modify users, permissions, files, or services.
+- Never publish credentials, private keys, or company-confidential configuration.
 
-Test in a lab environment before using it on a production system.
+## 📚 Skills Demonstrated
 
-Verify required privileges and target paths.
+Bash scripting · Linux administration · Service troubleshooting · User management · SSH auditing · File permissions · Backup automation · Log analysis · System monitoring
 
-Take care with scripts that create, delete, modify, or restart system resources.
+## 👨‍💻 Author
 
-Do not run scripts with elevated privileges unless necessary and understood.
+**Anurag Utkarsh**
 
-📚 Learning Outcomes
-
-Bash scripting and command-line automation
-
-Linux user and group management
-
-SSH security auditing
-
-Service administration and troubleshooting
-
-File permission auditing
-
-Practical Linux operational workflows
-
-👨‍💻 About
-
-Created by Anurag Utkarsh as part of a hands-on Bash scripting challenge focused on Linux administration and operational automation.
+[GitHub Profile](https://github.com/AnuragUtkarsh)
